@@ -1,0 +1,62 @@
+html,body {
+	height: 1500px;	
+}
+
+body {
+	background-color:black; 
+	
+}
+
+.nav-bar {
+	max-width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+	height:50px;
+}
+.wrapper {
+	padding-left: 5%;
+}
+@media screen and (max-width:720px)
+	{
+		.wrapper {
+			padding-left: 2%;
+		}
+
+	}
+
+.links {
+	padding-top: 20px;
+	text-align: center;
+	background-color: #101010 ;
+	border: 2px solid #181818 ;
+	display: inline-block;
+	width:23%;
+	height:100%;
+
+}
+
+.links a {
+	color:#808080;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+div .links:hover {
+	background-color: #202020 ;
+
+}
+
+.links:hover a {
+	color:#080808 ;
+}
+
+.top {
+	max-width:1600px;
+	margin-right: auto;
+	margin-left: auto;
+	height:500px;
+	background-image: url("http://i58.tinypic.com/bdno92.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
